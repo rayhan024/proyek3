@@ -24,3 +24,6 @@ Route::get('/login', function () {
 Route::get('/index', function () {
     return view('index');
 });
+Route::get('/register.blade.php', function () {
+    return view('register');
+});
