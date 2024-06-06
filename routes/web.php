@@ -17,6 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/jenissakitgigi', function () {
+    return view('jenissakitgigi');
+});
+
+Route::get('/caramerawatgigi', function () {
+    return view('caramerawatgigi');
+});
 
 Route::get('/login', function () {
     return view('login');

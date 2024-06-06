@@ -287,14 +287,14 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="components-alerts.html">
+            <a href="components-">
               <i class="bi bi-circle"></i><span>cara merawat gigi</span>
             </a>
           </li>
 
           <li>
-            <a href="components-modal.html">
-              <i class="bi bi-circle"></i><span>jenis-jenis penyakit gigi</span>
+            <a href="/jenissakitgigi">
+              <i class="bi bi-circle"></i><span>jenis-jenis sakit gigi</span>
             </a>
           </li>
           <li>
