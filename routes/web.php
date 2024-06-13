@@ -34,3 +34,6 @@ Route::get('/index', function () {
 Route::get('/register.blade.php', function () {
     return view('register');
 });
+Route::get('/Webcam', function () {
+    return view('Webcam');
+});
