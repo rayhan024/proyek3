@@ -88,7 +88,7 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit" >Login</button>
+                      <button class="btn btn-primary w-100" type="submit"><a href="{{ route("home") }}">Login</button>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0"> <a href="register.blade.php">Create an account</a></p>

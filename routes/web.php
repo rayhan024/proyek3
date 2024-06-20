@@ -30,10 +30,14 @@ Route::get('/login', function () {
 });
 Route::get('/index', function () {
     return view('index');
-});
+})->name('home');
 Route::get('/register.blade.php', function () {
     return view('register');
 });
 Route::get('/Webcam', function () {
     return view('Webcam');
 });
+
+Route::get('/upload123', [UploadController::class, 'upload'])->name('penyakit_gigi');
+
+Route::post('/upload123/proses', [UploadController::class, 'unggah_gambar'])->name('unggah_gambar');
